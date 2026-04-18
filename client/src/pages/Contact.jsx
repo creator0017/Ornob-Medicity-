@@ -38,12 +38,12 @@ export default function Contact() {
             </div>
 
             <div className="bg-surface-container-low p-8 rounded-[2rem] border border-surface-container-high/20 flex gap-5">
-              <div className="w-12 h-12 rounded-2xl bg-tertiary-fixed/10 text-tertiary-fixed flex items-center justify-center shrink-0">
+              <div className="w-12 h-12 rounded-2xl flex items-center justify-center shrink-0" style={{ background: '#f0f0f0', color: '#111111' }}>
                 <span className="material-symbols-outlined">phone</span>
               </div>
               <div>
-                <h3 className="font-headline font-bold text-sm uppercase text-tertiary-fixed mb-1">{c.phone_label}</h3>
-                <p className="text-on-surface-variant text-sm font-body leading-relaxed">{c.phone_val}</p>
+                <h3 className="font-headline font-bold text-sm uppercase mb-1" style={{ color: '#111111' }}>{c.phone_label}</h3>
+                <p className="text-sm font-body leading-relaxed font-semibold" style={{ color: '#111111' }}>{c.phone_val}</p>
               </div>
             </div>
           </div>
@@ -51,7 +51,7 @@ export default function Contact() {
           {/* Map */}
           <div className="rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white dark:border-[#1a1c19] h-[350px] relative">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1d6410.886364791641!2d81.78219285869136!3d27.402872849563824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3999b9006930b3e7%3A0x3504a22a57fb2f74!2sOrnob%20Medicity%20payagpur!5e1!3m2!1sen!2sin!4v1776497874750!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6410.886367666639!2d81.7821929!3d27.4028728!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3999b9006930b3e7%3A0x3504a22a57fb2f74!2sOrnob%20Medicity%20payagpur!5e1!3m2!1sen!2sin!4v1776500217796!5m2!1sen!2sin"
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
